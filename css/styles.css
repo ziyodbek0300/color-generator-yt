@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Montserrat', sans-serif;
+    transition: .1s ease-in;
+}
+
+body {
+    background: #F9F5F1;
+}
+
+nav {
+    background: #C0B3AD;
+    box-shadow: 0 1px 3px 0 #e2cabf;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+}
+
+nav .logo {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #47372f;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 1rem;
+}
+
+li a {
+    color: #5e493f;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: #381a0a;
+    font-weight: 500;
+}
+
+.color-content {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.color-input-content {
+    background: #daccc4;
+    padding: 1.5rem;
+    border-radius: 6px;
+    width: 30%;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0 1px 3px 0 #e2cabf;
+}
+
+.color-input-content input {
+    border: none;
+    width: 20%;
+    border-radius: 6px;
+    padding: .3rem;
+    height: 2.5rem;   
+    width: 40%;
+}
+
+.color {
+    width: 40%;
+}
